@@ -1,0 +1,18 @@
+.example-card {
+    max-width: 150px;
+    background: wheat;
+    height: 100px;
+    float: left;
+    margin: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+    color: brown;
+  }
+  
+  .example-header-image {
+    background-image: url('/assets/icon.png');
+    background-size: cover;
+    max-width: 30px;
+    max-height: 30px;
+    
+  }

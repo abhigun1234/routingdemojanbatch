@@ -1,0 +1,14 @@
+<div *ngFor="let  restro of restorents">
+    <mat-card (click)="goToRestorent(restro)" class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>{{restro.id}}</mat-card-title>
+          <mat-card-subtitle>{{restro.name}}</mat-card-subtitle>
+        </mat-card-header>
+        
+        <mat-card-content>
+          
+        </mat-card-content>
+        
+      </mat-card>
+</div>
